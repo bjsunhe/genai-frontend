@@ -38,7 +38,7 @@ const Palletizer = () => {
         console.log(previousQuestions)
 
       const process = await fetch(
-        "http://localhost:8090/api/ai/run-sql",
+        "http://localhost:8090/api/ai/run-mysql",
         {
           method: "POST",
           headers: {
