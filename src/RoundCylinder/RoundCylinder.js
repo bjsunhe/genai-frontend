@@ -38,7 +38,7 @@ const RoundCylinder = () => {
         console.log(previousQuestions)
 
       const process = await fetch(
-        "http://localhost:8090/api/ai/run-sql",
+        "http://34.125.249.167:8888/api/ai/rexroth-api",
         {
           method: "POST",
           headers: {
